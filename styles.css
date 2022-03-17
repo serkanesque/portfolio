@@ -318,8 +318,15 @@ a {
 }
 .nav a {
 	  display: flex;
-}
 
+}
+.nav a:hover {
+	   text-decoration: underline;
+
+}
+.nav a.current {
+	  text-decoration: none;
+}
 sup {
 	 	font-size: calc(17px + (24 - 17) * ((100vw - 300px) / (1600 - 300)));
 	 	    top: -5px;
